@@ -166,6 +166,13 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.5rem); }
   font-weight: 700;
   flex-shrink: 0;
 }
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
 .brand small {
   display: block;
   font-family: var(--font-body);
