@@ -236,6 +236,8 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.5rem); }
     position: fixed;
     top: 0;
     right: -100%;
+     visibility: hidden;
+pointer-events: none;
     width: min(82%, 340px);
     max-width: 340px;
     height: 100vh;
@@ -263,11 +265,11 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.5rem); }
   }
 
   /* ONLY when menu is opened */
-  .nav-links.open {
-    right: 0;
-    visibility: visible;
-    pointer-events: auto;
-  }
+.nav-links.open {
+  right: 0;
+  visibility: visible;
+  pointer-events: auto;
+}
 
   .nav-links a {
     font-size: 1.08rem;
