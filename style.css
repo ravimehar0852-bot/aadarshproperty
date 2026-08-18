@@ -338,7 +338,7 @@ pointer-events: none;
     inset: 0;
     background: rgba(20,12,10,0.55);
     backdrop-filter: blur(2px);
-    z-index: 999;
+    z-index: 998;
   }
 
   .nav-overlay.open {
