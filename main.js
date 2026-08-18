@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
   const overlay = document.querySelector(".nav-overlay");
+  const navClose = document.querySelector(".nav-close");
 
   function closeNav() {
     hamburger?.classList.remove("open");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     isOpen ? closeNav() : openNav();
   });
   overlay?.addEventListener("click", closeNav);
+  navClose?.addEventListener("click", closeNav);
   navLinks?.querySelectorAll("a").forEach(a => a.addEventListener("click", closeNav));
 
   // ---- Highlight active nav link ----
@@ -78,11 +80,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---- "Show Our Project" PDF button (placeholder-safe) ----
+  // ---- "Show Our Project" PDF button(s) — supports per-button data-pdf override ----
   document.querySelectorAll(".show-project-btn").forEach(btn => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
-      window.open(CONFIG.projectPdf, "_blank");
+      const pdf = btn.getAttribute("data-pdf") || CONFIG.projectPdf;
+      window.open(pdf, "_blank");
     });
   });
 });
