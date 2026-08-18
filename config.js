@@ -26,7 +26,8 @@ const CONFIG = {
     instagram: "https://instagram.com/aadarshproperties786",
     facebook: "#",
   },
-  projectPdf: "Aadarsh_Villa_Brochure.pdf?v=3", // replace later when user provides final PDF; bump ?v= number if PDF is ever replaced and doesn't update
+  projectPdf: "Aadarsh_Villa_Brochure.pdf?v=3", // Aadarsh Villa brochure
+  railViharPdf: "Rail_Vihar_Brochure.pdf?v=1", // Rail Vihar brochure — upload this file when ready
   nav: [
     { label: "Home", href: "index.html" },
     { label: "About", href: "about.html" },
