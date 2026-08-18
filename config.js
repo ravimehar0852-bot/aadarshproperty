@@ -26,7 +26,7 @@ const CONFIG = {
     instagram: "https://instagram.com/aadarshproperties786",
     facebook: "#",
   },
-  projectPdf: "Aadarsh_Villa_Brochure.pdf", // replace later when user provides final PDF
+  projectPdf: "Aadarsh_Villa_Brochure.pdf?v=3", // replace later when user provides final PDF; bump ?v= number if PDF is ever replaced and doesn't update
   nav: [
     { label: "Home", href: "index.html" },
     { label: "About", href: "about.html" },
