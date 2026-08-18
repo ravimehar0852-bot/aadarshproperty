@@ -7,27 +7,57 @@
   </url>
 
   <url>
-    <loc>https://aadarshproperty.vercel.app/about</loc>
+    <loc>https://aadarshproperty.vercel.app/about.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://aadarshproperty.vercel.app/services</loc>
+    <loc>https://aadarshproperty.vercel.app/services.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://aadarshproperty.vercel.app/gallery</loc>
+    <loc>https://aadarshproperty.vercel.app/construction.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/property-dealing.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/gallery.html</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://aadarshproperty.vercel.app/reviews</loc>
+    <loc>https://aadarshproperty.vercel.app/location.html</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://aadarshproperty.vercel.app/contact</loc>
+    <loc>https://aadarshproperty.vercel.app/testimonials.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/faq.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/aadarsh-villa.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aadarshproperty.vercel.app/rail-vihar.html</loc>
     <priority>0.8</priority>
   </url>
 
